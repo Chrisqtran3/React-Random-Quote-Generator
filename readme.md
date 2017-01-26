@@ -1,1 +1,1 @@
-A timer application created using React
+A boiler plate for future React projects.

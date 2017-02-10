@@ -1,1 +1,1 @@
-A boiler plate for future React projects.
+A Random Quote Generator built using React.

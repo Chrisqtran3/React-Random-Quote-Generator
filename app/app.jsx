@@ -10,15 +10,5 @@ $(document).foundation();
 // App css
 require('style!css!sass!applicationStyles');
 
-
-
-let quotes = [
-	{
-		quote: "Bippity boppity",
-		author: "Chris Tran"
-	}
-]
-
-
-ReactDOM.render(<Main quotes={quotes}/>, document.getElementById('app')
+ReactDOM.render(<Main/>, document.getElementById('app')
 );

@@ -1,5 +1,6 @@
 import React from 'react';
 import Display from 'Display';
+import APIData from 'APIData';
 
 class Main extends React.Component {
 	constructor(props) {
@@ -7,8 +8,9 @@ class Main extends React.Component {
 	}
 	render() {
 
-		let quote = this.props.quotes[0].quote;
-		let author = this.props.quotes[0].author;
+		let data = APIData.UpdateQuote();
+		let quote = data.quote;
+		let author = data.author;
 
 		return(
 			<div>

@@ -10,8 +10,8 @@ class Display extends React.Component {
 
 		return(
 			<div>
-				<h2>{quote}</h2>
-				<h4>{author}</h4>
+				<h2><i>"{quote}"</i></h2>
+				<h4>-{author}</h4>
 			</div>
 		);
 	}

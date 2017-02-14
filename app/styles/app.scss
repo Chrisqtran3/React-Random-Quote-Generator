@@ -16,3 +16,14 @@
 	border-radius: 7.5px;
 	text-align: center;
 }
+
+body {
+  // background-image: url("http://www.pachd.com/free-images/san-francisco/bay-bridge/bay-bridge-17.jpg"); 
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-attachment: fixed;       
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+} 

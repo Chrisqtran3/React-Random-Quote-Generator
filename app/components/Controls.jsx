@@ -11,7 +11,7 @@ class Controls extends React.Component {
 		return(
 			<div>
 				<div>
-					<button onClick={this.handleClick.bind(this)}className="button new-quote">New Quote</button>
+					<button onClick={this.handleClick.bind(this)} className="button new-quote">New Quote</button>
 				</div>
 			</div>
 		);

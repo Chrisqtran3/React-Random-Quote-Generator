@@ -3,6 +3,7 @@ import Display from 'Display';
 import APIData from 'APIData';
 import Controls from 'Controls';
 import TweetQuote from 'TweetQuote';
+import Header from 'Header';
 
 class Main extends React.Component {
 	constructor(props) {
@@ -32,8 +33,7 @@ class Main extends React.Component {
 		return(
 			<div>
 				<div className="container">
-					<h1>Random Quote Generator</h1>
-					<p>This is a Random Quote Generator from Free Code Camp, rebuilt using React.js, a JavaScript library made by FaceBook.</p>
+					<Header/>
 					<Display quote={this.state.quote} author={this.state.author}/>
 					<Controls handleClick={this.updateQuote.bind(this)}/>
 					<TweetQuote quote={this.state.quote}/>

@@ -4,6 +4,7 @@ import APIData from 'APIData';
 import Controls from 'Controls';
 import TweetQuote from 'TweetQuote';
 import Header from 'Header';
+import bind from 'autobind-decorator';
 
 class Main extends React.Component {
 	constructor(props) {
@@ -17,7 +18,7 @@ class Main extends React.Component {
 		}
 	}
 
-	updateQuote() {
+	@bind updateQuote() {
 
 		let data = APIData.UpdateQuote();
 
@@ -35,7 +36,7 @@ class Main extends React.Component {
 				<div className="container">
 					<Header/>
 					<Display quote={this.state.quote} author={this.state.author}/>
-					<Controls handleClick={this.updateQuote.bind(this)}/>
+					<Controls handleClick={this.updateQuote}/>
 					<TweetQuote quote={this.state.quote}/>
 				</div>
 			</div>

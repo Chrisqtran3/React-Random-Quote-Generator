@@ -1,9 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class TweetQuote extends React.Component {
-	constructor(props) {
-		super(props);
-	}
+class TweetQuote extends Component {
 
 	render() {
 

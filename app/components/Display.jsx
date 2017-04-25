@@ -1,9 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class Display extends React.Component {
-	constructor(props) {
-		super(props);
-	}
+class Display extends Component {
 	render() {
 
 		let {quote, author} = this.props;

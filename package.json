@@ -10,6 +10,7 @@
   "author": "Chris Tran",
   "license": "ISC",
   "dependencies": {
+    "autobind-decorator": "^1.4.0",
     "axios": "^0.15.3",
     "css-loader": "^0.23.1",
     "express": "^4.13.4",
